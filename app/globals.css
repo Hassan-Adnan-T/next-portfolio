@@ -22,5 +22,14 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-karla), Arial, Helvetica, sans-serif;
+}
+
+/* Add these classes for specific font usage */
+.font-karla {
+  font-family: var(--font-karla), Arial, Helvetica, sans-serif;
+}
+
+.font-barlow {
+  font-family: var(--font-barlow), Arial, Helvetica, sans-serif;
 }
