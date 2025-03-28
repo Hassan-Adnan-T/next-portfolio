@@ -1,4 +1,5 @@
 'use client'
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -44,12 +45,12 @@ export default function Hero() {
               </a>
             </div>
             <div className="flex flex-wrap gap-4">
-              <button className="bg-[#F97316] text-white px-6 py-3 rounded-lg hover:cursor-pointer transition font-karla">
-                View My Work
-              </button>
-              <button className="border border-[#F97316] text-[#F97316] px-6 py-3 rounded-lg hover:bg-[#F97316] hover:text-white hover:cursor-pointer transition font-karla">
+              <Link href="#projects" scroll={true} className="bg-[#F97316] text-white px-6 py-3 rounded-lg hover:cursor-pointer transition font-karla">
+                View Projects
+              </Link>
+              <Link href="#contacts" scroll={true} className="border border-[#F97316] text-[#F97316] px-6 py-3 rounded-lg hover:bg-[#F97316] hover:text-white hover:cursor-pointer transition font-karla">
                 Contact Me
-              </button>
+              </Link>
             </div>
           </div>
 
