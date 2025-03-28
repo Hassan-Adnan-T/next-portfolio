@@ -1,7 +1,5 @@
 'use client'
 
-import { link } from "fs"
-
 export default function Project() {
     const projects = [
         {
@@ -42,7 +40,7 @@ export default function Project() {
     ]
     
     return(
-        <div className="container mx-auto px-4 py-8">
+        <div id="projects" className="container mx-auto px-4 py-8">
             <div className="flex flex-wrap justify-center gap-6">
                 {projects.map((project) => (
                     <div key={project.id} className="card bg-base-100 w-96 shadow-sm">
