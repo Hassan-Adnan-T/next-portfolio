@@ -3,7 +3,7 @@
 export default function Hero() {
   return (
     <section id="home" className="min-h-screen flex items-center pt-20 px-4 md:px-8 lg:px-16">
-      <div className="container mx-auto bg-[#001738] p-40 rounded-2xl">
+      <div className="container mx-auto bg-[#001738] p-36 rounded-2xl">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Left Column - Text */}
           <div className="order-2 md:order-1">
