@@ -2,9 +2,9 @@
 
 export default function About(){
     return(
-    <div id="about">
-        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical px-80 py-4">
-        <div className="text-black font-black text-5xl font-barlow p-4 pb-10 self-center">ABOUT ME</div>
+    <div id="about" className="bg-[#EFF6FF]">
+        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical px-60 py-14">
+        <div className="text-black font-black text-5xl font-barlow p-2 pt-1 pb-10 self-center">ABOUT ME</div>
         <li>
             <div className="timeline-middle">
             <svg
