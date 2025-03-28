@@ -36,7 +36,7 @@ export default function Navbar() {
                     </li>
                     <li>
                         <Link 
-                            href="#skills" 
+                            href="#practicum" 
                             className="text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md"
                             scroll={true}
                         >
