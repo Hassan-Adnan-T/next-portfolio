@@ -48,7 +48,7 @@ export default function Hero() {
               <Link href="#projects" scroll={true} className="bg-[#F97316] text-white px-6 py-3 rounded-lg hover:cursor-pointer transition font-karla">
                 View Projects
               </Link>
-              <Link href="#contacts" scroll={true} className="border border-[#F97316] text-[#F97316] px-6 py-3 rounded-lg hover:bg-[#F97316] hover:text-white hover:cursor-pointer transition font-karla">
+              <Link href="#contact" scroll={true} className="border border-[#F97316] text-[#F97316] px-6 py-3 rounded-lg hover:bg-[#F97316] hover:text-white hover:cursor-pointer transition font-karla">
                 Contact Me
               </Link>
             </div>
