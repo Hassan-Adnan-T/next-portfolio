@@ -41,6 +41,7 @@ export default function Project() {
     
     return(
         <div id="projects" className="container mx-auto px-4 py-8">
+            <h1 className="flex justify-center text-black font-black text-5xl font-barlow p-2 pt-1 pb-10 self-center">PROJECTS</h1>
             <div className="flex flex-wrap justify-center gap-6">
                 {projects.map((project) => (
                     <div key={project.id} className="card bg-base-100 w-96 shadow-sm">
