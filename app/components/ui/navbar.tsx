@@ -9,7 +9,7 @@ export default function Navbar() {
                 <ul className="flex gap-6">
                     <li>
                         <Link 
-                            href="#home" 
+                            href="/" 
                             className="text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md"
                             scroll={true}
                         >
@@ -18,7 +18,7 @@ export default function Navbar() {
                     </li>
                     <li>
                         <Link 
-                            href="#about" 
+                            href="/#about" 
                             className="text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md"
                             scroll={true}
                         >
@@ -27,7 +27,7 @@ export default function Navbar() {
                     </li>
                     <li>
                         <Link 
-                            href="#projects" 
+                            href="/#projects" 
                             className="text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md"
                             scroll={true}
                         >
@@ -36,16 +36,15 @@ export default function Navbar() {
                     </li>
                     <li>
                         <Link 
-                            href="#practicum" 
+                            href="/practicum" 
                             className="text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md"
-                            scroll={true}
                         >
                             Practicum
                         </Link>
                     </li>
                     <li>
                         <Link 
-                            href="#contact" 
+                            href="/#contact" 
                             className="text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md"
                             scroll={true}
                         >
