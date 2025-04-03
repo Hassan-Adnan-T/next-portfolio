@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Company() {
   return (
-      <div className="flex justify-center px-10 py-20">
+      <div className="flex justify-center px-10 pt-20 pb-10">
     <div
       className="hero relative w-full max-w-screen h-[70vh] rounded-2xl overflow-hidden"
       style={{
