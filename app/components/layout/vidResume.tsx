@@ -19,6 +19,7 @@ export default function VidResume() {
                     </div>
                     
                     <div className="w-full lg:w-6/12 mt-16 lg:mt-24 lg:pl-16">
+                    <h1 className="text-black">viddeo is a placeholder</h1>
                         <p className="text-gray-700 mb-8 text-lg font-karla leading-relaxed">
                             "This video resume showcases my skills, experiences, and aspirations in the field of technology.
                             I am a dedicated and passionate individual, eager to contribute to innovative projects and collaborate with talented teams."
