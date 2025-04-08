@@ -52,8 +52,8 @@ export default function Project() {
                             />
                         </figure>
                         <div className="card-body bg-[#001738] rounded-xl shadow-sm">
-                            <h2 className="card-title">{project.title}</h2>
-                            <p>{project.description}</p>
+                            <h2 className="card-title text-white">{project.title}</h2>
+                            <p className="text-white">{project.description}</p>
                             <div className="card-actions justify-end">
                             <a href={project.link} target="_blank" rel="noopener noreferrer">
                                     <button className="btn bg-[#F97316] border-none rounded-xl">View Project</button>
