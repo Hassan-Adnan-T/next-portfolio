@@ -2,7 +2,7 @@
 
 export default function Gallery() {
     return (
-        <div className="carousel rounded-box relative w-full h-96 mt-10 mb-10">
+        <div className="carousel carousel-center rounded-box relative w-full h-96 mt-10 mb-10 justify-center">
         <div className="carousel-item">
             <img
             src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
