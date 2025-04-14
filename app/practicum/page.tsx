@@ -4,6 +4,7 @@ import Company from "../components/layout/company";
 import VidResume from "../components/layout/vidResume";
 import Documents from "../components/layout/documents";
 import Gallery from "../components/layout/gallery";
+import Tracking from "../components/layout/tracking";
 
 export default function Practicum() {
     return (
@@ -12,6 +13,7 @@ export default function Practicum() {
             <Company/>
             <VidResume/>
             <Documents/>
+            <Tracking/>
             <Gallery/>
             <Footer/>
         </main>
