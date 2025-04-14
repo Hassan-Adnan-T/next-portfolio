@@ -6,7 +6,7 @@ export default function VidResume() {
                     VIDEO RESUME
                 </h1>
                 
-                <div className="flex flex-col lg:flex-row items-start justify-between px-4 lg:px-0">
+                <div className="flex flex-col lg:flex-row items-start px-4 lg:px-0 sm:pl-24">
                     <div className="relative w-full lg:w-7/12 -ml-8 lg:-ml-16">
                         <iframe 
                             className="w-full aspect-video rounded-lg shadow-lg"
