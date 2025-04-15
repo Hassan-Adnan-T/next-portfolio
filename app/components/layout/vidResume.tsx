@@ -6,10 +6,10 @@ export default function VidResume() {
                     VIDEO RESUME
                 </h1>
                 
-                <div className="flex flex-col lg:flex-row items-start px-4 lg:px-0 sm:pl-24">
-                    <div className="relative w-full lg:w-7/12 -ml-8 lg:-ml-16">
+                <div className="flex flex-col lg:flex-row items-center px-4 lg:px-0 sm:pl-24 justify-center">
+                <div className="relative w-full lg:w-7/12 flex justify-center">
                         <iframe 
-                            className="w-full aspect-video rounded-lg shadow-lg"
+                            className="w-full max-w-lg aspect-video rounded-lg shadow-lg"
                             src="https://www.youtube.com/embed/njEi9G2y440" 
                             title="Video Resume Player" 
                             frameBorder="0" 
