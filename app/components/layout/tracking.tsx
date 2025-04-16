@@ -15,7 +15,7 @@ export default function Tracking() {
             id: 2,
             title: 'Weekly Accomplishment Report',
             description: 'A summary of my weekly tasks and accomplishments during the internship.',
-            link: 'https://drive.google.com/file/d/1YxXy3r2wJmZ5n6g7v7z7q7v7z7/view?usp=sharing',
+            link: 'https://drive.google.com/drive/folders/14TTfi1g7rP_jOp6gUw2tnS8acnkShlLt?usp=drive_link',
             file: '/war.pdf',
         },
     ]
