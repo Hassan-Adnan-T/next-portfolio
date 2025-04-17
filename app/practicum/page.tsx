@@ -15,6 +15,7 @@ export default function Practicum() {
             <Documents/>
             <Tracking/>
             <Gallery/>
+            <VidResume/>
             <Footer/>
         </main>
     ); 
