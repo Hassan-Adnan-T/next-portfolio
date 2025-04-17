@@ -3,7 +3,7 @@
 export default function Gallery() {
     return (
         <div className="w-full overflow-x-auto scrollbar-visible">
-            <div className="carousel carousel-center rounded-box relative w-max h-96 mt-10 mb-10 px-2 flex gap-2">
+            <div className="carousel carousel-center rounded-box relative w-max h-96 mt-10 mb-2 px-2 flex gap-2">
                 <div className="carousel-item">
                     <img src="/gallery1.png" alt="Burger" />
                 </div>
