@@ -37,24 +37,24 @@ export default function VidResume() {
                 </div>
             </div>
             {showVideo && (
-  <div className="fixed inset-0 z-[99999] bg-black/50 backdrop-blur-sm flex items-center justify-center">
-    <div className="relative z-10 w-[90%] h-[80%]">
-      <button
-        onClick={handleVideoClose}
-        className="fixed right-10 top-10 z-[999999] bg-white w-10 h-10 rounded-full text-black text-2xl flex items-center justify-center shadow-lg"
-      >
-        &times;
-      </button>
-      <iframe
-        src="https://www.youtube.com/embed/zaNlrtoYXHM"
-        title="Video Resume"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        className="w-full h-full rounded-xl shadow-2xl"
-      ></iframe>
-    </div>
-  </div>
-)}
+            <div className="fixed inset-0 z-[99999] bg-black/50 backdrop-blur-sm flex items-center justify-center">
+                <div className="relative z-10 w-[90%] h-[80%]">
+                <button
+                    onClick={handleVideoClose}
+                    className="fixed right-10 top-10 z-[999999] bg-white w-10 h-10 rounded-full text-black text-2xl flex items-center justify-center shadow-lg"
+                >
+                    &times;
+                </button>
+                <iframe
+                    src="https://www.youtube.com/embed/zaNlrtoYXHM"
+                    title="Video Resume"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full rounded-xl shadow-2xl"
+                ></iframe>
+                </div>
+            </div>
+            )}
         </div>
     );
 }
