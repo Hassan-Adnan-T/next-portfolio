@@ -15,7 +15,16 @@ export default function Practicum() {
             <Documents/>
             <Tracking/>
             <Gallery/>
-            <VidResume/>
+            <VidResume
+            title="SHORT VIDEO"
+            description="an evaluation of my performance during the practicum. It includes feedback from my supervisor and highlights my strengths and areas for improvement. This video serves as a reflection of my growth and learning throughout the practicum experience."
+            name="Glaiza Camille Sarmiento"
+            course="QA Engineer/My Supervisor"
+            videoUrl="https://www.youtube.com/embed/zaNlrtoYXHM"
+            thumbnail="/company-thumbnail.png"
+            alt="Short Video"
+            videoRight={true}
+            />
             <Footer/>
         </main>
     ); 
