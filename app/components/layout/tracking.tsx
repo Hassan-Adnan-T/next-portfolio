@@ -30,10 +30,10 @@ export default function Tracking() {
                         href={doc.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="card bg-base-300 rounded-box p-4 w-full lg:w-1/3 no-underline hover:shadow-lg transition-shadow hover:bg-[#F97316] hover:text-white"
+                        className="card bg-[#F9FAFB] rounded-box p-4 w-full lg:w-1/3 no-underline hover:shadow-lg transition-shadow hover:bg-[#F97316] group"
                     >
-                        <h2 className="text-lg font-bold">{doc.title}</h2>
-                        <p className="text-sm">{doc.description}</p>
+                        <h2 className="text-lg font-bold text-black group-hover:text-white">{doc.title}</h2>
+                        <p className="text-sm text-black group-hover:text-white">{doc.description}</p>
                     </a>
                 ))}
             </div>
