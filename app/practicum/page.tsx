@@ -21,7 +21,7 @@ export default function Practicum() {
             name="Glaiza Camille Sarmiento"
             course="QA Engineer/My Supervisor"
             videoUrl="https://www.youtube.com/embed/zaNlrtoYXHM"
-            thumbnail="/company-thumbnail.png"
+            thumbnail="/thumbnail.png"
             alt="Short Video"
             videoRight={true}
             />
