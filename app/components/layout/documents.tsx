@@ -56,7 +56,7 @@ export default function Documents() {
                         href={doc.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="card bg-[#F9FAFB] rounded-box p-4 w-full lg:w-1/3 no-underline hover:shadow-lg transition-shadow hover:bg-[#F97316] group"
+                        className="card bg-gray-100 rounded-box p-4 w-full lg:w-1/3 no-underline hover:shadow-lg transition-shadow hover:bg-[#F97316] group"
                     >
                         <h2 className="text-lg font-bold text-black group-hover:text-white">{doc.title}</h2>
                         <p className="text-sm text-black group-hover:text-white">{doc.description}</p>
