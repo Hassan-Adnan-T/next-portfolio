@@ -22,7 +22,7 @@ export default function Tracking() {
 
     return (
         <div>
-            <h1 className="font-barlow text-5xl font-black sm:px-8 md:px-16 lg:px-24 flex justify-center">TRACKING</h1>
+            <h1 className="text-black font-barlow text-5xl font-black sm:px-8 md:px-16 lg:px-24 flex justify-center">TRACKING</h1>
             <div className="flex w-full flex-col lg:flex-row p-10 flex-wrap gap-4 justify-center">
                 {trackingDocuments.map((doc) => (
                     <a
