@@ -32,7 +32,7 @@ export default function Documents() {
         },
         {
             id: 5,
-            title: 'Student Inforatmation Sheet',
+            title: 'Student Information Sheet',
             description: 'A letter from my professor recommending me for the internship.',
             file: '/portfolio.pdf',
             link: 'https://drive.google.com/file/d/1RIvgvbo6MAU6PzP8hklRd4cFFEN-473x/view?usp=sharing'
@@ -49,14 +49,14 @@ export default function Documents() {
     return (
         <div>
             <h1 className="text-black font-barlow font-bold text-5xl sm:px-8 md:px-16 lg:px-24 pt-10 flex justify-center">DOCUMENTS</h1>
-            <div className="flex w-full flex-col lg:flex-row p-10 flex-wrap gap-4 justify-center">
+            <div className="flex w-full flex-col lg:flex-row p-10 flex-wrap gap-10 justify-center">
                 {documents.map((doc) => (
                     <a
                         key={doc.id}
                         href={doc.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="card bg-gray-100 rounded-box p-4 w-full lg:w-1/3 no-underline hover:shadow-lg transition-shadow hover:bg-[#F97316] group"
+                        className="card bg-gray-100 rounded-box p-6 w-full lg:w-1/3 no-underline hover:bg-[#F97316] group transition duration-300 ease-in-out transform hover:scale-105 shadow-lg"
                     >
                         <h2 className="text-lg font-bold text-black group-hover:text-white">{doc.title}</h2>
                         <p className="text-sm text-black group-hover:text-white">{doc.description}</p>

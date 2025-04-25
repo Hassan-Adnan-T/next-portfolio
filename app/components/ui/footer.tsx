@@ -3,7 +3,7 @@
 export default function Footer() {
     return (
     <div id="contact">
-        <footer className="footer sm:footer-horizontal text-white items-center p-4 bg-[#001738]">
+        <footer className="footer sm:footer-horizontal text-white items-center p-4  bg-[#001738]">
             <aside className="grid-flow-col items-center">
                 <svg
                 width="36"
