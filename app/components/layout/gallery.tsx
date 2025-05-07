@@ -12,12 +12,12 @@ export default function Gallery() {
                     "/gallery5.png",
                     "/gallery6.png",
                     "/gallery7.jpg",
-                    "/gallery1.png",
+                    "/gallery8.png",
                     "/gallery2.png",
                     "/gallery3.png",
                     "/gallery4.png",
                     "/gallery5.png",
-                    "/gallery6.png",
+                    "/gallery8.png",
                     "/gallery7.jpg",
 
                 ].map((src, id) => (

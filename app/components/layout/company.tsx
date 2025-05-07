@@ -16,7 +16,7 @@ export default function Company() {
           <p className="mb-5 text-white text">
               Philippines' leading provider of flexible workspace solutions, offering premium serviced offices, 
               coworking spaces, and staff leasing services tailored to businesses of all sizes. 
-              We empower companies to scale efficiently in the Philippines without the traditional overhead costs.
+              they empower companies to scale efficiently in the Philippines without the traditional overhead costs.
           </p>
           <div className="flex items-center justify-center mt-4">
             <svg
