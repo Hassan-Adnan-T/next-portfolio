@@ -23,6 +23,7 @@ export default function Gallery() {
                 ].map((src, id) => (
                     <div key={id} className="carousel-item">
                         <img
+                            loading="lazy"
                             src={src}
                             alt={`Gallery ${id + 1}`}
                             className="h-full w-auto object-contain"
