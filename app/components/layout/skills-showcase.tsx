@@ -10,6 +10,7 @@ const categories = [
   { id: "databases", name: "Databases" },
   { id: "cloud", name: "Cloud Services" },
   { id: "design", name: "Design Tools" },
+  { id: "testing", name: "Testing & Development Tools"}
 ];
 
 // Skills data with logos
@@ -88,6 +89,41 @@ const skills = [
     name: "Figma",
     logo: "https://cdn.simpleicons.org/figma",
     category: "design",
+  },
+  {
+    name: "Next.Js",
+    logo: "https://cdn.simpleicons.org/nextdotjs",
+    category: "frameworks"
+  },
+  {
+    name: ".NET",
+    logo: "https://cdn.simpleicons.org/dotnet",
+    category: "frameworks"
+  },
+  {
+    name: "Canva",
+    logo: "https://cdn.simpleicons.org/canva",
+    category: "design"
+  },
+  {
+    name: "Typescript",
+    logo: "https://cdn.simpleicons.org/typescript",
+    category: "languages"
+  },
+  {
+    name: "Postman",
+    logo: "https://cdn.simpleicons.org/postman",
+    category: "testing"
+  },
+  {
+    name: "Playwright",
+    logo: "/skills/playwright.png",
+    category: "testing"
+  },
+  {
+    name: "Cypress",
+    logo: "https://cdn.simpleicons.org/cypress",
+    category: "testing"
   },
 ];
 
