@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,23 +22,45 @@ export default function Navbar() {
         </button>
         
         {/* Navigation Links */}
-        <ul className={`md:flex gap-6 ${isOpen ? 'block' : 'hidden'} absolute md:static top-16 left-0 w-full bg-white md:w-auto md:bg-transparent p-4 md:p-0 shadow-md md:shadow-none`}>
-          <li>
-            <Link href="/" className="block md:inline text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md">Home</Link>
-          </li>
-          <li>
-            <Link href="/#about" className="block md:inline text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md">About Me</Link>
-          </li>
-          <li>
-            <Link href="/#projects" className="block md:inline text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md">Projects</Link>
-          </li>
-          <li>
-            <Link href="/practicum" className="block md:inline text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md">Practicum</Link>
-          </li>
-          <li>
-            <Link href="/#contact" className="block md:inline text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md">Contact</Link>
-          </li>
-        </ul>
+        <AnimatePresence>
+          <ul className={`md:flex gap-6 ${isOpen ? 'block' : 'hidden'} absolute md:static top-16 left-0 w-full bg-white md:w-auto md:bg-transparent p-4 md:p-0 shadow-md md:shadow-none`}>
+            <motion.li
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.2 }}
+            >
+              <Link href="/" className="block md:inline text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md">Home</Link>
+            </motion.li>
+            <motion.li
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.2, delay: 0.1 }}
+            >
+              <Link href="/#about" className="block md:inline text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md">About Me</Link>
+            </motion.li>
+            <motion.li
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.2, delay: 0.2 }}
+            >
+              <Link href="/#projects" className="block md:inline text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md">Projects</Link>
+            </motion.li>
+            <motion.li
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.2, delay: 0.3 }}
+            >
+              <Link href="/practicum" className="block md:inline text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md">Practicum</Link>
+            </motion.li>
+            <motion.li
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.2, delay: 0.4 }}
+            >
+              <Link href="/#contact" className="block md:inline text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md">Contact</Link>
+            </motion.li>
+          </ul>
+        </AnimatePresence>
       </div>
     </nav>
   );

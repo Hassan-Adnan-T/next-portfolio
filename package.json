@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "daisyui": "^5.0.9",
-    "framer-motion": "^12.11.4",
+    "framer-motion": "^12.15.0",
     "install": "^0.13.0",
     "lucide-react": "^0.487.0",
     "next": "^15.2.4",
