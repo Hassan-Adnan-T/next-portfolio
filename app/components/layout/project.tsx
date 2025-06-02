@@ -1,5 +1,7 @@
 'use client'
 
+import { useState, useEffect } from "react"
+
 export default function Project() {
     const projects = [
         {
@@ -38,6 +40,16 @@ export default function Project() {
             link: 'https://github.com/Hassan-Adnan-T/The-Disappearance-of-Darryl-Burnham',
         },
     ]
+
+    const [isLoading, setIsLoading] = useState(true)
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setIsLoading(false)
+        }, 1000)
+
+        return () => clearTimeout(timer)
+    }, [])
     
     return(
         <div id="projects" className="container mx-auto px-4 py-8">
@@ -46,19 +58,35 @@ export default function Project() {
                 {projects.map((project) => (
                     <div key={project.id} className="card bg-base-100 w-96 shadow-sm">
                         <figure>
-                            <img 
-                            src={project.image} 
-                            alt={project.title} 
-                            />
+                            {isLoading ? (
+                                <div className="skeleton w-full h-48"></div>
+                            ) : (
+                                <img 
+                                    src={project.image} 
+                                    alt={project.title}
+                                    className="w-full h-48 object-cover"
+                                />
+                            )}
                         </figure>
                         <div className="card-body bg-[#001738] rounded-xl shadow-sm">
-                            <h2 className="card-title text-white">{project.title}</h2>
-                            <p className="text-white">{project.description}</p>
-                            <div className="card-actions justify-end">
-                            <a href={project.link} target="_blank" rel="noopener noreferrer">
-                                    <button className="btn bg-[#F97316] border-none rounded-xl">View Project</button>
-                                </a>
-                            </div>
+                            {isLoading ? (
+                                <>
+                                    <div className="skeleton h-8 w-3/4 mb-2"></div>
+                                    <div className="skeleton h-4 w-full mb-2"></div>
+                                    <div className="skeleton h-4 w-2/3 mb-4"></div>
+                                    <div className="skeleton h-10 w-32 ml-auto"></div>
+                                </>
+                            ) : (
+                                <>
+                                    <h2 className="card-title text-white">{project.title}</h2>
+                                    <p className="text-white">{project.description}</p>
+                                    <div className="card-actions justify-end">
+                                        <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                            <button className="btn bg-[#F97316] border-none rounded-xl text-white">View Project</button>
+                                        </a>
+                                    </div>
+                                </>
+                            )}
                         </div>
                     </div>
                 ))}

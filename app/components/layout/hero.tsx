@@ -32,7 +32,7 @@ export default function Hero() {
               </a>
             </div>
             <div className="flex flex-wrap justify-center md:justify-start gap-4">
-              <Link href="#projects" className="bg-[#F97316] text-white px-5 py-2 sm:px-6 sm:py-3 rounded-lg hover:cursor-pointer transition font-karla">
+              <Link href="#projects" className="bg-[#F97316] text-white px-5 py-2 sm:px-6 sm:py-3 rounded-lg hover:cursor-pointer transition font-karla duration-300 ease-in-out">
                 View Projects
               </Link>
               <Link href="#contact" className="border border-[#F97316] text-[#F97316] px-5 py-2 sm:px-6 sm:py-3 rounded-lg hover:bg-[#F97316] hover:text-white transition font-karla">
