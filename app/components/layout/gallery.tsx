@@ -6,12 +6,16 @@ export default function Gallery() {
   const images = [
     "/gallery1.png",
     "/gallery2.png",
+    "/gallery9.JPG",
     "/gallery3.png",
     "/gallery4.png",
+    "/gallery11.jpg",
     "/gallery5.png",
     "/gallery6.png",
     "/gallery7.jpg",
     "/gallery8.png",
+    "/gallery10.JPG",
+    
   ]
 
   return (
