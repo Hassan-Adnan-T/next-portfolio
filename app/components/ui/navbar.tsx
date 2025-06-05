@@ -57,7 +57,6 @@ export default function Navbar() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.2, delay: 0.4 }}
             >
-              <Link href="/#contact" className="block md:inline text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md">Contact</Link>
             </motion.li>
           </ul>
         </AnimatePresence>

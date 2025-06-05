@@ -22,7 +22,7 @@ const skills = [
   },
   {
     name: "CSS",
-    logo: "https://cdn.simpleicons.org/css3",
+    logo: "https://cdn.simpleicons.org/css",
     category: "languages",
   },
   {
@@ -47,7 +47,7 @@ const skills = [
   },
   {
     name: "C#",
-    logo: "/skills/csharp.png",
+    logo: "/skills/csharp.svg",
     category: "languages",
   },
   {
