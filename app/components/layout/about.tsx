@@ -2,7 +2,7 @@
 
 export default function About() {
   return (
-    <div id="about" className="bg-[#EFF6FF] px-4 sm:px-10 md:px-20 lg:px-40 xl:px-60 py-5">
+    <div id="about" className="bg-[#EFF6FF] px-4 sm:px-10 md:px-20 lg:px-40 xl:px-60 py-10">
       <div className="text-black font-black text-4xl sm:text-5xl font-barlow p-2 pt-1 pb-10 text-center">ABOUT ME</div>
       <ul className="timeline timeline-snap-icon timeline-vertical">
         <li>

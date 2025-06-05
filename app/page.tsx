@@ -5,6 +5,7 @@ import Project from './components/layout/project';
 import SkillsShowcase from './components/layout/skills-showcase';
 import Footer from './components/ui/footer';
 import PageTransition from './components/ui/page-transition';
+import Divider from './components/layout/divider';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <About />
+        <Divider />
         <SkillsShowcase />
         <Project />
         <Footer />
