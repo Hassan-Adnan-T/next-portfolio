@@ -2,6 +2,18 @@
 
 import { title } from 'process';
 import React from 'react';
+
+type VidResumeProps = {
+    title?: string;
+    description?: string;
+    name?: React.ReactNode;
+    course?: string;
+    thumbnail?: string;
+    videoUrl?: string;
+    alt?: string;
+    videoRight?: boolean;
+};
+
 export default function VidResume({
     title = "VIDEO RESUME",
     description = "This video resume showcases my skills, experiences, and aspirations in the field of technology. I am a dedicated and passionate individual, eager to contribute to innovative projects and collaborate with talented teams.",
@@ -11,7 +23,7 @@ export default function VidResume({
     videoUrl = "https://www.youtube.com/embed/zaNlrtoYXHM",
     alt = "Video Resume",
     videoRight = false,
-}){
+}: VidResumeProps) {
     const [showVideo, setShowVideo] = React.useState(false);
     const handleVideoClick = () => {
         setShowVideo(true);
