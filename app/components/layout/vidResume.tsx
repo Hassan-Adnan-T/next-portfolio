@@ -64,7 +64,7 @@ export default function VidResume({
                 <div className="relative z-10 w-[90%] h-[80%]">
                 <button
                     onClick={handleVideoClose}
-                    className="fixed right-10 top-10 z-[999999] bg-white w-10 h-10 rounded-full text-black text-2xl flex items-center justify-center shadow-lg"
+                    className="fixed right-10 top-10 z-[999999] bg-white w-10 h-10 rounded-full text-black text-2xl flex items-center justify-center shadow-lg cursor-pointer"
                 >
                     &times;
                 </button>
