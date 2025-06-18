@@ -8,7 +8,7 @@ export default function Tracking() {
             id: 1,
             title: 'Daily Time Record',
             description: 'A record of my daily attendance and hours worked during the internship.',
-            link: 'https://drive.google.com/file/d/1YxXy3r2wJmZ5n6g7v7z7q7v7z7/view?usp=sharing',
+            link: 'https://drive.google.com/drive/folders/1sozZs0yi07EWNMGblBRslnee_KQKmji5?usp=sharing',
             file: '/dtr.pdf',
         },
         {

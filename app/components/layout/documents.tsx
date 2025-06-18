@@ -14,7 +14,7 @@ export default function Documents() {
             title: 'Acceptance Letter',
             description: 'An official letter confirming my acceptance into the internship program.',
             file: '/certificate.pdf',
-            link: 'https://drive.google.com/file/d/1YxXy3r2wJmZ5n6g7v7z7q7v7z7/view?usp=sharing'
+            link: 'https://drive.google.com/drive/folders/1hpOahGlt3__khPEy8UT78N6lZNbfY8EL?usp=sharing'
         },
         {
             id: 3,
