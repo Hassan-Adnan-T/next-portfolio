@@ -14,8 +14,8 @@ export default function Practicum() {
                 <Navbar/>
                 <Company/>
                 <VidResume/>
-                <Documents/>
-                <Tracking/>
+                {/* <Documents/>
+                <Tracking/> */}
                 <Gallery/>
                 <VidResume
                 title="VIDEO EVALUATION"
