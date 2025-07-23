@@ -59,6 +59,13 @@ export default function Navbar() {
             >
               <Link href="/playground" className="block md:inline text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md">Playground</Link>
             </motion.li>
+            <motion.li
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.2, delay: 0.5 }}
+            >
+              <Link href="/qa" className="block md:inline text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md">QA</Link>
+            </motion.li>
           </ul>
         </AnimatePresence>
       </div>
