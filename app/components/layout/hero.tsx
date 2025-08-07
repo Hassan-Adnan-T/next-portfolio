@@ -46,7 +46,7 @@ export default function Hero() {
               Aspiring DevOps & QA Automation
             </h2>
             <p className="text-white text-sm sm:text-base md:text-md mb-6 font-karla max-w-md mx-auto md:mx-0">
-              QA Tester Intern at KMC Solutions, executing manual and automated tests, tracking bugs in Asana, and
+              Former QA Tester Intern at KMC Solutions, executing manual and automated tests, tracking bugs in Asana, and
               ensuring software quality through functional and performance testing.
             </p>
             <div className="flex justify-center md:justify-start space-x-4 mb-6">

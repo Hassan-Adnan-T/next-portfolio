@@ -17,9 +17,9 @@ export default function About() {
           </div>
           <div className="timeline-start mb-10 text-left sm:text-right">
             <time className="font-mono italic text-[#F97316]">April 2025</time>
-            <div className="text-lg text-black font-bold">Former QA Intern at KMC Solutions</div>
+            <div className="text-lg text-black font-bold">KMC Solutions QA Intern</div>
             <div className="text-black">
-              As former QA Tester Intern at KMC Solutions, I execute <span className="text-[#F97316] font-black">manual</span> and <span className="text-[#F97316] font-black">automated tests</span>, document test plans, and track bugs using Asana.
+              As a QA Tester Intern at KMC Solutions, I execute <span className="text-[#F97316] font-black">manual</span> and <span className="text-[#F97316] font-black">automated tests</span>, document test plans, and track bugs using Asana.
               I collaborate with teams to ensure software quality through <span className="text-[#F97316] font-black">functional</span>, <span className="text-[#F97316] font-black">regression</span>, and <span className="text-[#F97316] font-black">performance</span> testing while providing UI/UX feedback.
             </div>
           </div>
