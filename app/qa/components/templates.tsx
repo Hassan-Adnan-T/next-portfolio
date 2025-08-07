@@ -25,7 +25,7 @@ export default function Templates() {
       {/* Header */}
       <div className="max-w-4xl mx-auto text-center mb-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">QA Document Templates</h1>
-        <p className="text-gray-600 text-lg">Collection of QA document templates to streamline your testing process.</p>
+        <p className="text-gray-600 text-lg">Collection of QA document templates to streamline testing processes and ensure quality.</p>
       </div>
 
       {/* Templates Grid */}
