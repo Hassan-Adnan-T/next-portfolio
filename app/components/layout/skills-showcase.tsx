@@ -125,6 +125,11 @@ const skills = [
     logo: "https://cdn.simpleicons.org/cypress",
     category: "testing"
   },
+  {
+    name: "Docker",
+    logo: "https://cdn.simpleicons.org/docker",
+    category: "cloud"
+  },
 ];
 
 export default function SkillsShowcase() {
