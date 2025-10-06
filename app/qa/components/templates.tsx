@@ -18,6 +18,13 @@ export default function Templates() {
       icon: BarChart3,
       link: "/templates/Template_RTM.pdf",
     },
+    {
+      id: 3,
+      title: "Test Case Template",
+      description: "Template for creating detailed test cases.",
+      icon: CheckCircle,
+      link: "https://docs.google.com/spreadsheets/d/1iuncRbX4z1DrmavEew-CidNfLML33LjQswCQthqp3LQ/edit?usp=sharing",
+    },
   ]
 
   return (
