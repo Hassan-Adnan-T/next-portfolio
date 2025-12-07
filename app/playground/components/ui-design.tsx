@@ -1,11 +1,11 @@
 export default function UIDesign() {
     return (
-        <div className="flex flex-col items-center justify-center h-screen">
+        <div className="flex flex-col items-center justify-center h-screen -mb-20">
             <h1 className="text-black text-4xl font-bold font-barlow">UI Design</h1>
-            <div className="text-black flex flex-col items-center justify-center font-karla">
+            <div className="underline text-black flex flex-col items-center justify-center font-karla">
                 This is UI Designs I made for fun.
             </div>
-            <div className="flex flex-row items-center justify-center mt-4">
+            <div className="pt-10 flex flex-row items-center justify-center mt-4">
                 <img
                     src="/coffee.png"
                     alt="coffee"
