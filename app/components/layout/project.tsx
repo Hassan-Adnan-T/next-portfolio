@@ -23,7 +23,7 @@ export default function Project() {
             title: 'RoyalRescue',
             description: 'a 2D platformer game using GDevelop, a no-code game development platform.',
             image: '/royalrescue.jpeg',
-            link: 'https://gamejolt.com/games/Royalrescue/894080',
+            link: 'https://drive.google.com/file/d/1dhlK7KND5nFuuweuZ-j6bBxHBehMbwvx/view?usp=sharing',
         },
         {
             id: 4,

@@ -75,10 +75,11 @@ export default function Hero() {
                 View Projects
               </Link>
               <Link
-                href="#contact"
+                href="https://drive.google.com/file/d/1TaaumJOpSdqZBOUdVzBlWxYWzsskw9TM/view?usp=sharing"
+                target="_blank" rel="noopener noreferrer"
                 className="border border-[#F97316] text-[#F97316] px-5 py-2 sm:px-6 sm:py-3 rounded-lg hover:bg-[#F97316] hover:text-white transition font-karla"
               >
-                Contact Me
+                View Resume
               </Link>
             </div>
           </div>
