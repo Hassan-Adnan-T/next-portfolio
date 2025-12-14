@@ -11,6 +11,7 @@
   "dependencies": {
     "daisyui": "^5.0.9",
     "framer-motion": "^12.15.0",
+    "groq-sdk": "^0.37.0",
     "install": "^0.13.0",
     "lucide-react": "^0.487.0",
     "next": "^16.0.7",
