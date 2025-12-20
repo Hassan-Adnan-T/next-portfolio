@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full bg-white backdrop-blur-sm z-50 shadow-sm">
       <div className="container mx-auto px-6 md:px-10 py-4 flex justify-between items-center">
-        <div className="font-barlow text-2xl font-bold text-[#020202]">MYPORTFOLIO</div>
+        <Link href="/" className="font-barlow text-2xl font-bold text-[#020202]">ADNAN HASSAN</Link>
         
         {/* Mobile Menu Button */}
         <button
@@ -28,13 +28,6 @@ export default function Navbar() {
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.2 }}
-            >
-              <Link href="/" className="block md:inline text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md">Home</Link>
-            </motion.li>
-            <motion.li
-              initial={{ opacity: 0, y: -10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.2, delay: 0.1 }}
             >
               <Link href="/#about" className="block md:inline text-[#020202] font-karla hover:bg-[#F1F1F1] px-3 py-2 rounded-md">About Me</Link>
             </motion.li>
