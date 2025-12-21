@@ -40,14 +40,14 @@ export default function Hero() {
           {/* Left Column - Text */}
           <div className="order-2 md:order-1 text-center md:text-left">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 font-barlow text-white">
-              ADNAN HASSAN
+              Ensuring Quality Through Automation
             </h1>
             <h2 className="text-lg sm:text-xl md:text-2xl mb-4 font-karla text-[#F97316]">
-              Aspiring DevOps & QA Automation
+              Aspiring DevOps & QA Engineer
             </h2>
             <p className="text-white text-sm sm:text-base md:text-md mb-6 font-karla max-w-md mx-auto md:mx-0">
-              Former QA Tester Intern at KMC Solutions, executing manual and automated tests, tracking bugs in Asana, and
-              ensuring software quality through functional and performance testing.
+              Junior Software Quality Assurance securing internal ecosystems. 
+              I integrate automation, DevOps, and design thinking to deliver reliable, scalable solutions.
             </p>
             <div className="flex flex-wrap justify-center md:justify-start gap-4">
               <Link

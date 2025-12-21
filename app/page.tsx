@@ -13,10 +13,9 @@ export default function Home() {
       <main className="relative bg-white">
         <Navbar />
         <Hero />
-        <About />
+        <Project />
         <Divider />
         <SkillsShowcase />
-        <Project />
         <Footer />
       </main>
     </PageTransition>
