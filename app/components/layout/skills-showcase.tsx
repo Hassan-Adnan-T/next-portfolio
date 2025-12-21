@@ -102,7 +102,7 @@ const skills = [
   },
   {
     name: "Canva",
-    logo: "https://cdn.simpleicons.org/canva",
+    logo: "/skills/Canva.png",
     category: "design"
   },
   {
