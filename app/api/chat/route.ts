@@ -1,11 +1,5 @@
 import Groq from 'groq-sdk';
 import { NextRequest, NextResponse } from 'next/server';
-import { env } from 'process';
-
-
-const groq = new Groq({
-    apiKey: env.GROQ_API_KEY,
-});
 
 const SYSTEM_PROMPT = `You are an AI assistant for Adnan Hassans professional portfolio website.
 Your role is to help visitors learn about Hassan skills, experience, projects, and background in a friendly and professional manner
@@ -65,12 +59,15 @@ Your role is to help visitors learn about Hassan skills, experience, projects, a
 - If asked about contact, direct them to his LinkedIn or GitHub
 - If you don't know something specific that's not in this context, be honest
 - Encourage visitors to check out his projects and resume
-- When discussing projects, highlight the technologies and skills used`
-
-
+- When discussing projects, highlight the technologies and skills used`;
 
 export async function POST(request: NextRequest) {
     try {
+        // Initialize Groq client inside the function
+        const groq = new Groq({
+            apiKey: process.env.GROQ_API_KEY || '',
+        });
+
         const {messages} = await request.json();
 
         if (!messages || messages.length === 0) {
@@ -96,30 +93,30 @@ export async function POST(request: NextRequest) {
             throw new Error('No assistant message returned');
         }
 
-    return NextResponse.json({
-        message: assistantMessage,
-      });
+        return NextResponse.json({
+            message: assistantMessage,
+        });
     } catch (error: any) {
-      console.error("Error in chat API:", error);
-  
+        console.error("Error in chat API:", error);
 
-      if (error?.status === 401) {
+        if (error?.status === 401) {
+            return NextResponse.json(
+                { error: "Invalid API key. Please check your Groq API key." },
+                { status: 401 }
+            );
+        }
+
+        if (error?.status === 429) {
+            return NextResponse.json(
+                { error: "Rate limit exceeded. Please try again later." },
+                { status: 429 }
+            );
+        }
+        
+        // Generic error response
         return NextResponse.json(
-          { error: "Invalid API key. Please check your Groq API key." },
-          { status: 401 }
+            { error: "An error occurred while processing your request." },
+            { status: 500 }
         );
-      }
-  
-      if (error?.status === 429) {
-        return NextResponse.json(
-          { error: "Rate limit exceeded. Please try again later." },
-          { status: 429 }
-        );
-      }
-       // Generic error response
-    return NextResponse.json(
-        { error: "An error occurred while processing your request." },
-        { status: 500 }
-      );
     }
 }
