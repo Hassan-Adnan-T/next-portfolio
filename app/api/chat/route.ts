@@ -1,8 +1,10 @@
 import Groq from 'groq-sdk';
 import { NextRequest, NextResponse } from 'next/server';
+import { env } from 'process';
+
 
 const groq = new Groq({
-    apiKey: process.env.GROQ_API_KEY,
+    apiKey: env.GROQ_API_KEY,
 });
 
 const SYSTEM_PROMPT = `You are an AI assistant for Adnan Hassans professional portfolio website.
