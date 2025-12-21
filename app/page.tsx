@@ -6,6 +6,7 @@ import SkillsShowcase from './components/layout/skills-showcase';
 import Footer from './components/ui/footer';
 import PageTransition from './components/ui/page-transition';
 import Divider from './components/layout/divider';
+import OJTPreview from './components/layout/ojt-preview';
 
 export default function Home() {
   return (
