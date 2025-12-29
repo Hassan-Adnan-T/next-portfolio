@@ -7,6 +7,7 @@ import Footer from './components/ui/footer';
 import PageTransition from './components/ui/page-transition';
 import Divider from './components/layout/divider';
 import OJTPreview from './components/layout/ojt-preview';
+import ChatWidget from './components/ui/chat-widget';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Project />
         <Divider />
         <SkillsShowcase />
+        <ChatWidget />
         <Footer />
       </main>
     </PageTransition>

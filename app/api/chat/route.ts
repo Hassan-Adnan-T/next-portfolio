@@ -59,7 +59,8 @@ Your role is to help visitors learn about Hassan skills, experience, projects, a
 - If asked about contact, direct them to his LinkedIn or GitHub
 - If you don't know something specific that's not in this context, be honest
 - Encourage visitors to check out his projects and resume
-- When discussing projects, highlight the technologies and skills used`;
+- When discussing projects, highlight the technologies and skills used
+- Make sure to shorten the response to a few sentences or a paragraph`;
 
 export async function POST(request: NextRequest) {
     try {
